@@ -15,7 +15,7 @@ function MovieCatalogue() {
                     </a>
                 </div>
                 <div
-                    className={'h-[45rem] md:h-auto overflow-y-hidden md:overflow-y-auto md:w-[330rem] flex flex-col md:flex-row justify-between items-center'}>
+                    className={'h-[45rem] md:h-auto overflow-y-hidden md:overflow-y-auto overflow-x-hidden md:w-[330rem] flex flex-col md:flex-row justify-between items-center'}>
                     {popularMovies.map((movie) => (
                         <>
                             <a href={'movieinfo'}>
@@ -35,7 +35,7 @@ function MovieCatalogue() {
                     </a>
                 </div>
                 <div
-                    className={'h-[45rem] md:h-auto overflow-y-hidden md:overflow-y-auto md:w-[330rem] flex flex-col md:flex-row justify-between items-center'}>
+                    className={'h-[45rem] md:h-auto overflow-y-hidden md:overflow-y-auto overflow-x-hidden md:w-[330rem] flex flex-col md:flex-row justify-between items-center'}>
                     {topRatedMovies.map((movie) => (
                         <>
                             <a href={'movieinfo'}>
